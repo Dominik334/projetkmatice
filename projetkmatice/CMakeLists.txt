@@ -3,7 +3,7 @@
 #
 
 # Přidejte zdrojový kód ke spustitelnému souboru tohoto projektu.
-add_executable (projetkmatice "projetkmatice.cpp" "projetkmatice.h")
+add_executable (projetkmatice "projetkmatice.cpp" "projetkmatice.h"   "sucet.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET projetkmatice PROPERTY CXX_STANDARD 20)
