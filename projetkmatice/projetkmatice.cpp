@@ -75,7 +75,7 @@ int main()
 
 
 
-			if (inp == 1)										//sucet
+			if (inp == 1)				//sucet
 			{
 				for (int k = 0; k < riadky; k++)
 				{
@@ -105,7 +105,7 @@ int main()
 
 
 
-		if (inp == 2)													//rozdiel
+		if (inp == 2)					//rozdiel
 		{
 			for (int k = 0; k < riadky; k++)
 			{
@@ -125,7 +125,7 @@ int main()
 				}
 			}
 		}
-		if (inp == 3)											//sucin
+		if (inp == 3)							//sucin
 		{
 			if (stlpce == riadky2)
 			{
@@ -155,7 +155,7 @@ int main()
 		}
 
 	}
-	if (inp == 4)												//skalarny sucin
+	if (inp == 4)							//skalarny sucin
 	{
 		int inp2;
 		printf("Zadaj skalar");
@@ -178,7 +178,7 @@ int main()
 			}
 		}
 	}
-	if (inp == 5)												//transponovana
+	if (inp == 5)									//transponovana
 	{	
 		int maticaT[5][5];
 		for (int k = 0; k < riadky; k++)
@@ -199,7 +199,7 @@ int main()
 			}
 		}
 	}
-	if (inp == 6)														//determinant
+	if (inp == 6)							//determinant
 	{
 		int determinant;
 		if (riadky == 2 && stlpce == 2)
