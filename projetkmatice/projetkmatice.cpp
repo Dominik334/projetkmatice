@@ -178,7 +178,7 @@ int main()
 			}
 		}
 	}
-	if (inp == 5)
+	if (inp == 5)												//transponovana
 	{	
 		int maticaT[5][5];
 		for (int k = 0; k < riadky; k++)
@@ -199,7 +199,7 @@ int main()
 			}
 		}
 	}
-	if (inp == 6)
+	if (inp == 6)														//determinant
 	{
 		int determinant;
 		if (riadky == 2 && stlpce == 2)
