@@ -249,14 +249,14 @@ int main()
 				printf("%d", determinant);
 				fprintf(vystupniSoubor, "%d", determinant);
 			}
-			else if (riadky == 3 && stlpce == 3)
+			if (riadky == 3 && stlpce == 3)
 			{
 
 				printf("determinant je \n");
 				printf("%d", det(matica));
 				fprintf(vystupniSoubor, "%d", det(matica));
 			}
-			else if (riadky == 4 && stlpce == 4)
+			if (riadky == 4 && stlpce == 4)
 			{
 
 				printf("%d", laplas(matica));
